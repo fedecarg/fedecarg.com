@@ -3,7 +3,7 @@
 ### Install
 
 ```bash
-$ git clone git@github.com:fedecarg/fedeacarg.com.git
+$ git clone https://github.com/fedecarg/fedecarg.com.git
 $ cd fedecarg.com
 $ npm install
 ```
