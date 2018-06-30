@@ -1,0 +1,29 @@
+.animateArrow {
+  border-radius: 50%;
+  animation: animateArrow 2s infinite;
+}
+
+.animateSpinner {
+  animation: animateSpinner .75s infinite linear;
+}
+
+/*==================================================
+  Keyframes
+/*=================================================*/
+
+@keyframes animateSpinner {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animateArrow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+}
+

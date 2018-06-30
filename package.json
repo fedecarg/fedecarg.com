@@ -1,0 +1,31 @@
+{
+  "name": "fedecarg.com",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fedecarg/fedecarg.com.git"
+  },
+  "author": {
+    "name": "Federico Cargnelutti",
+    "email": "fedecarg@gmail.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "babelify": "^9.0.0",
+    "grunt": "^1.0.3",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-browserify": "^5.3.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-targethtml": "^0.2.6",
+    "jshint-stylish": "^2.2.1"
+  },
+  "dependencies": {
+    "jquery": "3.3.1"
+  }
+}
