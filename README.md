@@ -1,4 +1,4 @@
-## SPA
+## Single Page Application
 
 ### URL
 http://www.fedecarg.com/
