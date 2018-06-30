@@ -1,2 +1,0 @@
-[alias]
-    pushdist = subtree push --prefix dist origin gh-pages
