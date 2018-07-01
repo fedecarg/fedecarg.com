@@ -127,7 +127,6 @@ article {
   color: #afafaf;
 }
 
-
 /*==================================================
   Header
 /*=================================================*/
@@ -415,13 +414,13 @@ nav {
   margin-top: 60px;
 }
 
-.service .feat-icon {
+.service__icon {
   width: 20%;
   float: left;
   text-align: center;
 }
 
-.service .feat-text {
+.service__text {
   width: 80%;
   float: left;
   min-height: 125px;
@@ -445,7 +444,6 @@ nav {
   font-size: 14px;
   color: #888;
 }
-
 
 /*==================================================
   Work
@@ -637,31 +635,31 @@ footer {
   width: 100%;
 }
 
-.copyright-text {
+.footer__copyright-text {
   padding: 0 200px;
 }
 
-.copyright-text p {
+.footer__copyright-text p {
   color: #555;
   font-size: 16px;
 }
 
-.copyright-text hr {
+.footer__copyright-text hr {
   border-top: 1px solid #353535;
 }
 
-footer .social {
+.footer__social-networks {
   height: 30px;
 }
 
-footer .social a {
+.footer__social-networks a {
   color: #fff;
   font-size: 15px;
   margin: 0 15px;
   transition: all ease 0.3s;
 }
 
-footer .social a:hover {
+.footer__social-networks a:hover {
   transition: all ease 0.3s;
   opacity: 0.5;
 }
@@ -699,7 +697,6 @@ footer .social a:hover {
   content: none;
 }
 
-
 /*==================================================
   Preloader
 /*=================================================*/
@@ -729,7 +726,6 @@ footer .social a:hover {
   width: 50px;
   height: 50px;
 }
-
 
 /*==================================================
   Buttons
@@ -786,12 +782,11 @@ a.giggs_button2 {
   color: #fff;
 }
 
-
 /*==================================================
   Media queries
 /*=================================================*/
 
-/*max Width 992px */
+/* max width 992px */
 @media screen and (max-width: 991px) {
   .home__content h1 {
     font-size: 50px;
@@ -800,41 +795,22 @@ a.giggs_button2 {
     padding: 0 15px;
     padding-bottom: 15px;
   }
-  .contact-info i {
-    display: none;
-  }
-  .contact-info {
-    margin: 10px 0;
-  }
-  .contact-info p {
-    margin: 10px 0;
-    color: #000;
+  .footer__copyright-text {
+    padding: 0;
   }
 }
 
 
-/*max Width 768px */
+/* max width 768px */
 @media screen and (max-width: 768px) {
-  .home__content h1 {
-    font-size: 32px !important;
-    margin-bottom: 10px;
-  }
-  .contact-info {
-    margin-bottom: 30px;
-    padding: 0 50px;
-  }
-  .social a {
-    margin: 0 10px;
-    font-size: 12px;
+  .header__logo {
+    min-height: 65px;
   }
   .nav__items li {
     float: none;
   }
   .responsive {
     display: block;
-  }
-  .not_found h1 {
-    font-size: 130px;
   }
   .home__profile-img {
     width: 170px;
@@ -859,26 +835,26 @@ a.giggs_button2 {
   .nav--active:after {
     display: none;
   }
-  .feat-icon i {
-    font-size: 23px;
-  }
-  .portfolio_filter ul {
-    margin-top: 15px;
-  }
-  .portfolio_filter ul li {
-    line-height: 32px;
-    border: solid 1px #efefef;
+  .home__content h1 {
+    font-size: 32px !important;
     margin-bottom: 10px;
-    padding: 0 11px;
-    width: 45%;
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    display: block;
   }
-  .copyright-text {
-    padding: 0;
+  .home__social-networks {
+    display: none;
+  }
+  .about__quote {
+    font-size: 1.6rem;
+  }
+  .service {
+    margin-top: 30px;
+  }
+  .service__icon {
+    font-size: 23px;
+    width: 12%;
+  }
+  .footer__social-networks a {
+    margin: 0 10px;
+    font-size: 12px;
   }
   .backtop {
     right: 15px !important;
@@ -886,27 +862,22 @@ a.giggs_button2 {
   .backtop {
     bottom: 70px !important;
   }
-  .nav-scroll {
-    height: 207px;
-    overflow: hidden;
-    position: relative;
-  }
-  .feat-icon {
-    width: 12%;
-  }
 }
 
-/*between 480 768px */
+/* between 480 768px */
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .home__content h1 {
     font-size: 40px !important;
   }
+  .footer__copyright-text {
+    padding: 0;
+  }
 }
 
 
-/*min Width 768px */
+/* min width 768px */
 @media screen and (min-width: 768px) {
   .nav__items {
-    display: block!important;
+    display: block !important;
   }
 }
