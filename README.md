@@ -1,7 +1,8 @@
 ## Single Page Application
 
-### URL
 http://www.fedecarg.com/
+
+![](https://raw.githubusercontent.com/fedecarg/fedecarg.com/master/dist/images/spa-screenshot.png)
 
 ### Install
 
