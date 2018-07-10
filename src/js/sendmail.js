@@ -48,7 +48,7 @@
 
         $.ajax({
             type: 'POST',
-            url: 'http://www.kewnode.com/contact-us',
+            url: 'http://www.kewnode.com/api/email',
             data: jQuery.param(params),
             success: (data) => {
               resetFormFields();
