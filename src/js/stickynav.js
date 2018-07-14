@@ -11,7 +11,7 @@
     const DEFAULT_SELECTORS = {
       navContainerSelector: 'header',        // Nav container id, class or tag selector
       navActiveClass:       'nav--active',   // Selected nav item modifier class
-      navStickyClass:       'nav--stiky',    // Sticky nav modifier class
+      navStickyClass:       'nav--sticky',   // Sticky nav modifier class
       sectionSelector:      'section'        // Section id, class or tag selector
     };
 
