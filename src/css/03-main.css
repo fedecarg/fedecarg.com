@@ -441,108 +441,83 @@ nav {
   Work
 /*=================================================*/
 
-.portfolio {
+.work {
   padding: 45px 30px 60px;
 }
 
-.portfolio__item {
+.work__item {
   margin-bottom: 30px;
 }
 
-.portfolio__item img {
+.work__item img {
   width: 100%;
   transition: all ease 0.3s;
 }
 
-.portfolio__item a {
-  color: #eee;
-}
-
-.portfolio__giggs-button {
-  text-align: center;
-}
-
-.portfolio__giggs-button .giggs_button {
-  font-size: 16px;
-}
-
-.portfolio__deck-inner {
-  position: relative;
+.work__item-inner {
   box-shadow: 0 28px 25px -25px rgba(0,0,0,.7);
-}
-
-.portfolio__deck-overlay {
-  position: absolute;
-  color: #fff;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: all 0.5s ease;
-}
-
-.portfolio__deck-overlay-in {
   display: table;
   height: 100%;
+  position: relative;
   width: 100%;
 }
 
-.portfolio__deck-info {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0 15px;
+.work__item-inner:hover .work__item-link {
+  background-color: rgba(0,0,0,.8);
+  opacity: 1;
 }
 
-.portfolio__deck-overlay-in p {
+.work__item-inner .work__item-link a {
+  opacity: 0;
+  transition: all .4s ease;
+  top: 70%;
+}
+
+.work__item-inner:hover .work__item-link a {
+  opacity: 1;
+  top: 40%;
+}
+
+.work__item-link {
+  display: table-cell;
+  height: 100%;
+  opacity: 0;
+  padding: 0 15px;
+  position: absolute;
+  text-align: center;
+  transition: all 300ms ease;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.work__item-link i,
+.work__item-link p,
+.work__item-link a {
+  color: #fff;
+}
+
+.work__item-link p {
   font-size: 14px;
-  line-height: 20px;
   font-style: normal;
   font-weight: 400;
-  color: #fff;
-  opacity: 0;
-  transform: translate3d(0, 80px, 0);
-  transition: all 400ms ease;
-}
-
-.portfolio__deck-overlay-in .portfolio__deck-links {
-  opacity: 0;
-  display: block;
-  transform: translate3d(0, 80px, 0);
-  transition: all 300ms ease;
-}
-
-.portfolio__deck-overlay-in .portfolio__deck-links a {
-  font-size: 20px;
-  color: #fff;
-  text-decoration: none;
-  opacity: 0.7;
-}
-
-.portfolio__deck-overlay-in .portfolio__deck-links p {
+  line-height: 20px;
   margin-bottom: 10px;
 }
 
-.portfolio__deck-overlay-in .portfolio__deck-links a:hover {
-  opacity: 1;
+.work__item-link a {
+  display: block;
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
 }
 
-.portfolio__deck-inner:hover > .portfolio__deck-overlay {
-  background: rgba(0, 0, 0, 0.80);
-  opacity: 1;
-  transition: all 0.5s ease;
+.work__giggs-button {
+  text-align: center;
 }
 
-.portfolio__deck-inner:hover .portfolio__deck-overlay-in p {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-  transition-delay: 0.3s;
+.work__giggs-button .giggs_button {
+  font-size: 16px;
 }
-
-.portfolio__deck-inner:hover .portfolio__deck-overlay-in .portfolio__deck-links {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-  transition-delay: 0.4s;
-}
-
 
 /*==================================================
   Contact
