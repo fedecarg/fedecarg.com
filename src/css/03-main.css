@@ -202,18 +202,15 @@ nav {
 }
 
 .nav--sticky {
-  -webkit-transition: background-color .5s cubic-bezier(.28, .11, .32, 1);
-          transition: background-color .5s cubic-bezier(.28, .11, .32, 1);
-  -webkit-transition-property: background-color, -webkit-backdrop-filter;
-          transition-property: background-color, -webkit-backdrop-filter;
-          transition-property: background-color, backdrop-filter;
-          transition-property: background-color, backdrop-filter, -webkit-backdrop-filter;
-
   background-color: #fff;
   border: 0;
   box-shadow: 0 6px 12px -10px rgba(21, 21, 21, .67);
   display: block;
   position: fixed;
+  transition: background-color .5s cubic-bezier(.28, .11, .32, 1);
+  transition-property: background-color, -webkit-backdrop-filter;
+  transition-property: background-color, backdrop-filter;
+  transition-property: background-color, backdrop-filter, -webkit-backdrop-filter;
 }
 
 .nav--sticky .header__logo,
@@ -249,7 +246,7 @@ nav {
 /*=================================================*/
 
 .home {
-  background: url(../images/home-hero.jpg) center no-repeat;
+  background: url(../images/home-bg.jpg) center no-repeat;
   background-color: #081426;
   background-size: cover;
   display: table;
@@ -524,11 +521,11 @@ nav {
 /*=================================================*/
 
 .contact {
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .contact.dark {
-  background-color: #0a0a0a;
+  background-color: #060606;
 }
 
 .contact.dark h1 {
@@ -601,7 +598,7 @@ input:-webkit-autofill {
 /*=================================================*/
 
 footer {
-  padding-bottom: 45px;
+  padding: 40px 0;
   width: 100%;
 }
 
@@ -783,9 +780,6 @@ a.giggs_button2 {
   .nav__items li {
     float: none;
   }
-  .responsive {
-    display: block;
-  }
   .home__profile-img {
     width: 170px;
     height: 170px;
@@ -832,9 +826,10 @@ a.giggs_button2 {
   }
   .backtop {
     right: 15px !important;
-  }
-  .backtop {
     bottom: 70px !important;
+  }
+  .responsive {
+    display: block;
   }
 }
 
@@ -847,7 +842,6 @@ a.giggs_button2 {
     padding: 0;
   }
 }
-
 
 /* min width 768px */
 @media screen and (min-width: 768px) {
