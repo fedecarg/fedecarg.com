@@ -1,10 +1,11 @@
 ## Single Page Application
 
-http://www.fedecarg.com/
-
 ![](https://raw.githubusercontent.com/fedecarg/fedecarg.com/master/src/images/screenshot.jpg)
 
-### Install
+## URL
+http://www.fedecarg.com/
+
+## Install
 
 ```bash
 $ git clone https://github.com/fedecarg/fedecarg.com.git
@@ -12,7 +13,7 @@ $ cd fedecarg.com
 $ npm install
 ```
 
-### Build
+## Build
 
 ```bash
 $ grunt build
