@@ -2,7 +2,7 @@
 
 http://www.fedecarg.com/
 
-![](https://raw.githubusercontent.com/fedecarg/fedecarg.com/master/dist/images/spa-screenshot.png)
+![](https://raw.githubusercontent.com/fedecarg/fedecarg.com/master/src/images/screenshot.jpg)
 
 ### Install
 
