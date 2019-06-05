@@ -23,9 +23,10 @@
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-targethtml": "^0.2.6",
+    "js-yaml": ">=3.13.1",
     "jshint-stylish": "^2.2.1"
   },
   "dependencies": {
-    "jquery": "3.3.1"
+    "jquery": ">=3.4.0"
   }
 }
