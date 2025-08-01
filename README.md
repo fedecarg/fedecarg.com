@@ -1,9 +1,11 @@
 ## Single Page Application
 
-## URL
+A clean, responsive theme built to showcase personal or professional projects. Built with HTML, CSS and JavaScript. Feel free to fork, customise, and use it for your own site or portfolio.
+
+### URL
 http://www.fedecarg.com/
 
-## Install
+### Install
 
 ```bash
 $ git clone https://github.com/fedecarg/fedecarg.com.git
@@ -11,7 +13,7 @@ $ cd fedecarg.com
 $ npm install
 ```
 
-## Build
+### Build
 
 ```bash
 $ grunt build
