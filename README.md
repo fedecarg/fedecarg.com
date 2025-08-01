@@ -1,7 +1,5 @@
 ## Single Page Application
 
-![](https://raw.githubusercontent.com/fedecarg/fedecarg.com/master/src/images/screenshot.jpg)
-
 ## URL
 http://www.fedecarg.com/
 
